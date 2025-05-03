@@ -1,0 +1,20 @@
+.gallery {
+  max-width: 1660px;
+  margin: 20px auto;
+
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  li {
+    width: 400px;
+    max-height: 300px;
+    overflow: hidden;
+    display: flex;
+    place-content: center;
+
+    img {
+      object-fit: cover;
+    }
+  }
+}

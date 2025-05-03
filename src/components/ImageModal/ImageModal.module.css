@@ -1,0 +1,28 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90%;
+  width: fit-content;
+  div {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    place-content: center;
+    img {
+      object-fit: contain;
+    }
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 5, 10, 0.6);
+}
